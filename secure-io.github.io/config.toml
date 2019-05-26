@@ -1,0 +1,43 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "Secure I/O"
+
+themesDir = "themes"
+theme = "hugo-whisper-theme"
+
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+pygmentsUseClasses = true
+
+[[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "Doc"
+    url = "/doc"
+    weight = 2
+
+[[menu.main]]
+    name = "Github"
+    url = "https://github.com/secure-io"
+    weight = 3
+
+[params]
+  homepage_button_link = '/doc'
+  homepage_button_text = 'Read the docs'
+  homepage_intro = 'Provable secure authenticated encryption for I/O streams'
+  homepage_image = '/images/channel_construction.svg'
+
+  [params.homepage_meta_tags]
+    meta_description = "Secure IO is a provable secure authenticated encryption "
+    meta_og_title = "Secure IO"
+    meta_og_type = "website"
+    meta_og_url = "https://secure-io.org"
+
+  [params.logo]
+      mobile = "/images/logo.png"
+      standard  = "/images/logo.png"
+
+

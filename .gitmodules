@@ -1,0 +1,3 @@
+[submodule "secure-io.github.io/themes/hugo-whisper-theme"]
+	path = secure-io.github.io/themes/hugo-whisper-theme
+	url = https://github.com/jugglerx/hugo-whisper-theme.git
