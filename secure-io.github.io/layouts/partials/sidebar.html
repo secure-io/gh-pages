@@ -1,10 +1,9 @@
 {{$currentNode := .}}
 <div class="docs-menu">
-  <h4>{{ .Section | humanize }}</h4>
   <ul>
-    {{ range (where .Site.RegularPages "Section" .Section) sort .Site.RegularPages ".Weight" "desc" }}
-    <li class="{{ if eq .File.UniqueID $currentNode.File.UniqueID }}active {{ end }}">
-      <a href="{{ .Permalink }}">{{ .Title }}</a>
+    {{ range (where .Site.RegularPages "Section" .Section) sort .Site.RegularPages ".Weight" }}
+    <li class="{{ if ne .File.UniqueID $currentNode.File.UniqueID }} active {{ end }}">
+        <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4> 
     </li>
     {{ end }}
   </ul>

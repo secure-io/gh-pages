@@ -15,8 +15,8 @@ pygmentsUseClasses = true
     weight = 1
 
 [[menu.main]]
-    name = "Doc"
-    url = "/doc"
+    name = "Documentation"
+    url = "/doc/"
     weight = 2
 
 [[menu.main]]
@@ -25,8 +25,8 @@ pygmentsUseClasses = true
     weight = 3
 
 [params]
-  homepage_button_link = '/doc'
-  homepage_button_text = 'Read the docs'
+  homepage_button_link = '/doc/introduction/'
+  homepage_button_text = 'READ MORE'
   homepage_intro = 'Provable secure authenticated encryption for I/O streams'
   homepage_image = '/images/channel_construction.svg'
 
@@ -44,5 +44,4 @@ pygmentsUseClasses = true
   [params.logo]
       mobile = "/images/logo.png"
       standard  = "/images/logo.png"
-
 
