@@ -31,10 +31,15 @@ pygmentsUseClasses = true
   homepage_image = '/images/channel_construction.svg'
 
   [params.homepage_meta_tags]
-    meta_description = "Secure IO is a provable secure authenticated encryption "
-    meta_og_title = "Secure IO"
+    meta_description = "Provable secure authenticated encryption"
+    meta_og_title = "Secure I/O"
     meta_og_type = "website"
     meta_og_url = "https://secure-io.org"
+    meta_og_image = "/images/logo.png"
+    meta_og_description = "Secure I/O provides provable secure authenticated encryption"
+    meta_twitter_card = ""
+    meta_twitter_site = ""
+    meta_twitter_creator = ""
 
   [params.logo]
       mobile = "/images/logo.png"
