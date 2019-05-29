@@ -26,9 +26,11 @@ without any warnings. However, we try to avoid major breaking changes without
 very good reasons.
 
 If you are missing a package for your favourite programming language consider
-opening an [issue](https://github.com/secure-io/sio/issues). However, due
-to limitation of resources and since we try to achieve high code quality, we
-may not be able to provide and maintain such a package - in particular, if
-there is no maintainer who is familiar with the language. **Contributions are
-always welcome!** 
+opening an [issue](https://github.com/secure-io/sio/issues). However, due to
+limitation of resources and since we try to achieve high code quality, we may
+not be able to provide and maintain such a package - in particular, if there is
+no maintainer who is familiar with the language. If you want to contribute or
+become a maintainer take a look at [How to Contribute](/doc/how-to-contribute).
+
+**Contributions are always welcome!** 
 
