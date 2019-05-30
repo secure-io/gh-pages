@@ -193,4 +193,4 @@ Concluding, for certain types of applications (financial or governmental) you ma
 have to use AES-GCM due to legal regulations. Also, if all your CPUs provide
 special hardware support for AES then AES-GCM is the straight forward solution.
 Otherwise, you may want to use ChaCha20-Poly1305. Anyway, if your biggest problem
-is whether you use AES-GCM or ChaCha20-Pol1305 then you don't have problems 😉.
+is whether you use AES-GCM or ChaCha20-Poly1305 then you don't have problems 😉.
